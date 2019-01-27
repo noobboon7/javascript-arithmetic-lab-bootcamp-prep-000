@@ -34,7 +34,7 @@ function dec(n)
 
 function makeInt(n)
 {
-  return parseInt(n, 0);
+  return parseInt('0', n);
 }
 
 function preserveDecimal(n)
