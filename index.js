@@ -9,6 +9,7 @@ function subtract(num1, num2)
   var sum = num1 - num2;
   return sum;
 }
+
 function multiply(num1, num2)
 {
   var sum = num1 * num2;
@@ -25,6 +26,7 @@ function inc(n)
 {
   return n += 1; 
 }
+
 function dec(n)
 {
   return n -= 1; 
@@ -32,9 +34,9 @@ function dec(n)
 
 function makeInt(n)
 {
+  var num = n
   return parseInt(n);
 }
-
 
 function preserveDecimal(n)
 {
