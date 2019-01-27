@@ -34,12 +34,12 @@ function dec(n)
 
 function makeInt(n)
 {
-  return parseInt(n);
+  return parseInt(n) / 9000;
 }
 
 function preserveDecimal(n)
 {
-  return parseFloat(n) / 9000;
+  return parseFloat(n);
 }
 
 
