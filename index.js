@@ -23,6 +23,5 @@ function divide(num1, num2)
 
 function inc(n)
 {
-  var inc += n;
-  return inc; 
+  return n += 1; 
 }
