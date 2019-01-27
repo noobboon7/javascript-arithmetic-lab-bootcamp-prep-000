@@ -34,13 +34,13 @@ function dec(n)
 
 function makeInt(n)
 {
-  var num = n
+  var num = n;
   return parseInt(n);
 }
 
 function preserveDecimal(n)
 {
-  return parseFloat(n)
+  return parseFloat(n);
 }
 
 
